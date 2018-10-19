@@ -1,0 +1,19 @@
+﻿body{
+	background-color: #333;
+	color: #fff;
+}
+.navbar{
+	border-bottom: #c0392b 3px solid;
+	opacity: .7;
+}
+
+#Inicio-section{
+	background: url('pics/esc2.jpg') no-repeat;
+	min-height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.home-inner{
+	padding: 200px;
+}
