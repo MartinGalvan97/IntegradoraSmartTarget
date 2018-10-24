@@ -2,12 +2,11 @@
 <html lang="en">
     <head>
         <title>
-            CardCloud
+            Dashboard
         </title>
+        <?php include './inc/navbar.php';?><!--Link que llama al navbar en la carpata de inc-->
     </head>
     <body>
-        <?php include './inc/navbar.php';?>
-        <!--Link que llama al navbar en la carpata de inc-->
         <div class="container" style="margin-top:100px">
             <div class="row">
                 <h1>

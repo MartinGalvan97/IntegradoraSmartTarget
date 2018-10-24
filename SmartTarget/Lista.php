@@ -2,22 +2,25 @@
 <html lang="en">
     <head>
         <title>
-            CardCloud
+            Listas
         </title>
+        <?php include './inc/navbar.php';?><br><br><br><!--Link que llama al navbar en la carpata de inc-->
     </head>
     <body>
-        <?php include './inc/navbar.php';?><!--Link que llama al navbar en la carpata de inc-->
-        <div class="container-fluid" align="center">
-            <h2>
-                <b>USUARIOS</b>
-            </h2>
-            <button class="btn btn-danger btn-lg" data-target="#myModal" data-toggle="modal" type="button">
-                <b>Eliminar</b>
-            </button>
-            <button class="btn btn-info btn-lg" data-target="#my" data-toggle="modal" type="button">
-                <b>Modificar</b>
-            </button>
-        </div>
+        
+        <div class="container-fluid">
+            <div class="jumbotron" align="center">
+                <h2>
+                    <b>USUARIOS</b>
+                </h2>
+                <button class="btn btn-danger btn-lg" data-target="#myModal" data-toggle="modal" type="button">
+                    <b>Eliminar</b>
+                </button>
+                <button class="btn btn-info btn-lg" data-target="#my" data-toggle="modal" type="button">
+                    <b>Modificar</b>
+                </button>
+            </div> 
+        </div>  
     </body>
 </html>
 <div class="container mt-3">

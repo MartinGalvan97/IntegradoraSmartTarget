@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <title>
-            CardCloud
+            Registro Usuarios
         </title>
+        <?php include './inc/navbar.php';?><br><br><br><!--Link que llama al navbar en la carpata de inc-->
     </head>
     <body>
-        <?php include './inc/navbar.php';?>        <!--Link que llama al navbar en la carpata de inc-->
         <!--botones con formilarios?-->
         <div class="container-fluid">
             <!--jumbotron-->
