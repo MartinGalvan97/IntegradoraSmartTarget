@@ -15,9 +15,6 @@
                 <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
                 <li class="dropdown order-1">
                     <button type="button" id="dropdownMenu1" data-toggle="modal" data-target="#modallogin" class="btn btn-outline-secondary dropdown-toggle">Login <span class="caret"></span></button>
-                    <ul class="dropdown-menu dropdown-menu-right mt-2">
-                       
-                    </ul>
                 </li>
             </ul>
         </div>
@@ -46,7 +43,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h3>Inici sesion</h3>
+                <h3>Inicio sesion</h3>
                 <button type="button" class="close font-weight-light" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <div class="modal-body">
@@ -70,4 +67,4 @@
             </div>
         </div>
     </div>
-</div>
+</div><br><br><br>

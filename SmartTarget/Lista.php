@@ -4,7 +4,7 @@
         <title>
             Listas
         </title>
-        <?php include './inc/navbar.php';?><br><br><br><!--Link que llama al navbar en la carpata de inc-->
+        <?php include './inc/navbar.php';?><!--Link que llama al navbar en la carpata de inc-->
     </head>
     <body>
         
