@@ -10,22 +10,16 @@
        
         <div class="container-fluid">
             <div class="jumbotron">
-                <h2>
-                    Bienvenido
-                </h2>
-                <p>
-                    Seleccione el tipo de usuario
-                </p>
+                <h2>Bienvenido</h2>
+                <p>Seleccione el tipo de usuario</p>
                 <div class="container">
-                    <button class="btn btn-primary" data-target="#registro" data-toggle="modal" type="button">
-                        Maestro (a)
-                    </button>
-                    <button class="btn btn-primary" data-target="#ingreso" data-toggle="modal" type="button">
-                        Padre o Tutor
-                    </button>
+                    <button class="btn btn-primary" data-target="#registro" data-toggle="modal" type="button">Maestro (a)</button>
+                    <button class="btn btn-primary" data-target="#ingreso" data-toggle="modal" type="button">Padre o Tutor</button>
                 </div>
+
             </div>
         </div>
+        <div class="container" id="contenedor"></div>
     </body>
 </html>
 <?php include './inc/footer.php';?><!--Link que llama al footer en la carpeta inc-->

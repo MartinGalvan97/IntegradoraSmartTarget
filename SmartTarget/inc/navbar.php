@@ -52,10 +52,10 @@
                         <input id="email" placeholder="Email" class="form-control form-control-sm" type="text" required="">
                     </div>
                     <div class="form-group">
-                        <input id="contrasena" placeholder="Password" class="form-control form-control-sm" type="text" required="">
+                        <input id="contrasena" placeholder="Password" class="form-control form-control-sm" type="password" required="">
                     </div>
                     <div class="form-group">
-                        <button type="button" onclick="registrar()" class="btn btn-primary btn-block">Login</button>
+                        <button type="button" onclick="ingresar()" class="btn btn-primary btn-block">Login</button>
                     </div>
                     <div class="form-group text-center">
                         <small><a href="#" data-toggle="modal" data-target="#modalPassword">Forgot password?</a></small>

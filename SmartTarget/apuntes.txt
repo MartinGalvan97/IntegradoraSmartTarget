@@ -1,0 +1,115 @@
+lo necesitare mas tarde no borren eso
+<!--boton del grupo-->
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
+        Grupo
+        <div class="dropdown-menu">
+            <a class="dropdown-item">
+                1A
+            </a>
+            <a class="dropdown-item">
+                2B
+            </a>
+            <a class="dropdown-item">
+                3C
+            </a>
+        </div>
+</button>
+
+</div>
+
+
+modales
+<!-- Modal tabla de modificacion-->
+<div class="modal fade" id="my" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content modal-mid">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    Modal Header
+                </h4>
+                <button class="close" data-dismiss="modal" type="button">
+                    ×
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <h2>
+                        Tabla de usuarios
+                    </h2>
+                    <input class="form-control col-md-4" id="myInput" placeholder="Buscar nombre" type="text"/>
+                    <br>
+                        <table class="table-condensed table-hover">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        ID
+                                    </th>
+                                    <th>
+                                        Apellido paterno
+                                    </th>
+                                    <th>
+                                        Apellido materno
+                                    </th>
+                                    <th>
+                                        Nombres
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="myTable">
+                                <tr>
+                                    <td>
+                                        1234
+                                    </td>
+                                    <td>
+                                        Casas
+                                    </td>
+                                    <td>
+                                        Unas
+                                    </td>
+                                    <td>
+                                        Armando
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </br>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal" type="button">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- The Modal registro de datos-->
+    <div class="modal fade" id="altamaestro">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        Ingrese sus datos
+                    </h4>
+                    <button class="close" data-dismiss="modal" type="button">
+                        ×
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    
+                    <button class="btn btn-danger" data-dismiss="modal" type="button">
+                        Cancelar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
