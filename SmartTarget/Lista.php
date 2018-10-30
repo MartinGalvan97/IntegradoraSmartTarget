@@ -63,7 +63,7 @@
         </div>
         <div class="container mt-3">
             <h2>Tabla de usuarios</h2>
-            <input class="form-control" id="myInput" placeholder="Buscar nombre" type="text"></input><br>
+            <input class="form-control table-responsive" id="myInput" placeholder="Buscar nombre" type="text"></input><br>
             <table class="table table-bordered my-3">
                 <thead>
                     <tr>
@@ -88,5 +88,5 @@
             </table></br>
         </div>
     </body>
-    <?php include './inc/footer.php';?><!--Link que llama al footer en la carpeta inc-->
 </html>
+<?php include './inc/footer.php';?><!--Link que llama al footer en la carpeta inc-->

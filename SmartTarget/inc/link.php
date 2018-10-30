@@ -16,6 +16,9 @@
 <script type="text/javascript" src="js/bootstrap.min.js" charset="utf-8" ></script>
 <!-- Archivos JS -->
 <script src="./js/app.js"></script>
+<script src="./js/alumnosCRUD.js"></script>
+<script src="./js/escuelaCRUD.js"></script>
+<script src="./js/maestrosCRUD.js"></script>
 
 
 <!-- <link rel="Shortcut Icon" type="image/x-icon" href="assets/icons/nube.ico" /> parte del codigo para colocar el icono--> 

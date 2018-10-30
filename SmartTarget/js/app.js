@@ -8,29 +8,6 @@
   // Initialize Cloud Firestore through Firebase
   var db = firebase.firestore();
 
-  function guardar(){
-    // Variables pasadas de html a javascript
-    var nombre = document.getElementById('nombre').value;
-    var apellidoP = document.getElementById('apellidoP').value;
-    var apellidoM = document.getElementById('apellidoM').value;
-    var email = document.getElementById('email').value;
-    var contrasena = document.getElementById('password').value;
-
-    db.collection("users").add({//se crea la tabla de usuarios
-      Nombre: nombre,
-      ApellidoP: apellidoP,
-      ApellidoM: apellidoM,
-      Email: email,
-      Contrasena: contrasena
-  })
-  .then(function(docRef) {
-      console.log("Document written with ID: ", docRef.id);
-  })
-  .catch(function(error) {
-      console.error("Error adding document: ", error);
-  });
-  };
-
 //CRUD DE USUARIOS
 //
 //INGRESAR
@@ -44,10 +21,6 @@
 
     db.collection("users").add({//se crea la tabla de usuarios
       Nombre: nombre,
- 
-
-
-
       ApellidoP: apellidoP,
       ApellidoM: apellidoM,
       Email: email,
@@ -125,7 +98,7 @@
       });
   });
 
-/////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 //AUTENTIFICACION DE CORREO Y USUARIO
@@ -195,6 +168,7 @@ observador();//SE EJECUTA SIEMPRE
   		console.log(error)
   	})
   }
+
 //ENVIAR CORREO DE VERIFICACION
   function verificar(){
   	var user = firebase.auth().currentUser;

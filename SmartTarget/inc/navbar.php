@@ -6,8 +6,18 @@
         </button>
         <div class="collapse navbar-collapse" id="exCollapsingNavbar">
             <ul class="nav navbar-nav">
-                <li class="nav-item"><a href="RegistroUsuarios.php" class="nav-link">Registro</a></li>
-                <li class="nav-item"><a href="Lista.php" class="nav-link">Alumnos</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Registro
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="alumnos.php">Alumnos</a>
+                    <a class="dropdown-item" href="#">Padres</a>
+                    <a class="dropdown-item" href="maestros.php">Maestros</a>
+                    <a class="dropdown-item" href="escuelaCRUD.php">Escuela</a>
+                  </div>
+                </li>
+                <!-- <li class="nav-item"><a href="Lista.php" class="nav-link">Alumnos</a></li> -->
                 <li class="nav-item"><a href="dashboard.php" class="nav-link">Dashboard</a></li>
                 <li class="nav-item"><a href="administracion.php" class="nav-link">Administrar</a></li>
             </ul>
