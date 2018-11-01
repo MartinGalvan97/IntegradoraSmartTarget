@@ -10,6 +10,7 @@
     var grado = document.getElementById('grado').value;
     var grupo = document.getElementById('grupo').value;
     var curp = document.getElementById('curp').value;
+    
 
     db.collection("alumnos").add({//se crea la tabla de usuarios
       Nombre: nombre,
@@ -18,7 +19,8 @@
       CURP:curp,
       Turno: turno,
       Grado: grado,
-      Grupo: grupo
+      Grupo: grupo,
+      RFID: rfid
   })
   .then(function(docRef) {
       console.log("Document written with ID: ", docRef.id);
@@ -38,6 +40,7 @@
     document.getElementById('grado').value = Grado;
     document.getElementById('grupo').value = Grupo
     document.getElementById('curp').value = CURP;
+    
     var boton = document.getElementById('btn-alumno');
     boton.innerHTML = 'Editar';
 
