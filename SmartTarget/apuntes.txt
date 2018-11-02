@@ -1,4 +1,4 @@
-lo necesitare mas tarde no borren eso
+﻿lo necesitare mas tarde no borren eso
 <!--boton del grupo-->
 <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" type="button">
@@ -113,3 +113,7 @@ modales
             </div>
         </div>
     </div>
+
+
+
+https://es.stackoverflow.com/questions/133028/pasar-variables-de-un-javascript-a-un-html
