@@ -4,6 +4,7 @@
         <title>
             Listas
         </title>
+        <link rel="icon" type="image/png" href="./assets/icon/logo.ico" />
         <?php include './inc/navbar.php';?><!--Link que llama al navbar en la carpata de inc-->
     </head>
     <body>

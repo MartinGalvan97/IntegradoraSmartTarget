@@ -1,6 +1,5 @@
 
 <?php include 'link.php' ?>
-
 <div class="container-fluid mt-5 mb-4 text-center" style="background-color: #353A40">
     <div class="row mt-5 text-center" align="center" style="color: white">
         <div class="col-md-3 col-lg-4 col-xl-3 mb-4">

@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Administración</title>
+		<link rel="icon" type="image/png" href="./assets/icon/logo.ico" />
 		<?php include './inc/navbar.php' ?>
 	</head>
 	<body>

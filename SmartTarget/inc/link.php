@@ -20,6 +20,5 @@
 <script src="./js/escuelaCRUD.js"></script>
 <script src="./js/maestrosCRUD.js"></script>
 
-
 <!-- <link rel="Shortcut Icon" type="image/x-icon" href="assets/icons/nube.ico" /> parte del codigo para colocar el icono--> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
