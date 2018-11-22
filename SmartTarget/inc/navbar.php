@@ -12,7 +12,7 @@
                   </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="alumnos.php">Alumnos</a>
-                    <a class="dropdown-item" href="#">Padres</a>
+                    <a class="dropdown-item" href="padres.php">Padres</a>
                     <a class="dropdown-item" href="maestros.php">Maestros</a>
                     <a class="dropdown-item" href="escuelaCRUD.php">Escuela</a>
                     <a class="dropdown-item" href="Registro.php">Registro</a>

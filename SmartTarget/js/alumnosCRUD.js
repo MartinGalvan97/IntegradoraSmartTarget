@@ -20,7 +20,6 @@
       Turno: turno,
       Grado: grado,
       Grupo: grupo,
-      RFID: rfid
   })
   .then(function(docRef) {
       console.log("Document written with ID: ", docRef.id);
