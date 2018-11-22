@@ -16,11 +16,12 @@
                     <a class="dropdown-item" href="maestros.php">Maestros</a>
                     <a class="dropdown-item" href="escuelaCRUD.php">Escuela</a>
                     <a class="dropdown-item" href="Registro.php">Registro</a>
+                    <a class="dropdown-item" href="lista de asistencia.php">Lista de asistencia</a>
                   </div>
                 </li>
                 <!-- <li class="nav-item"><a href="Lista.php" class="nav-link">Alumnos</a></li> -->
                 <li class="nav-item"><a href="dashboard.php" class="nav-link">Dashboard</a></li>
-                <li class="nav-item"><a href="administracion.php" class="nav-link">Administrar</a></li>
+                
             </ul>
             <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
                 <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
