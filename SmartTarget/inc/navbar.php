@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
     <div class="container">
         <a class="navbar-brand" href="index.php">CardCloud</a>
+        <img src="C:\wamp\www\proyecto 2\trunk\SmartTarget\assets\img
+        logo.jpg" alt="">
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
             &#9776;
         </button>
@@ -21,7 +23,8 @@
                 </li>
                 <!-- <li class="nav-item"><a href="Lista.php" class="nav-link">Alumnos</a></li> -->
                 <li class="nav-item"><a href="dashboard.php" class="nav-link">Dashboard</a></li>
-                
+                <li class="nav-item"><a href="dashboard.php" class="nav-link">Maestra Rosa Me. Lano</a></li>
+
             </ul>
             <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
                 <li class="nav-item order-2 order-md-1"><a href="#" class="nav-link" title="settings"><i class="fa fa-cog fa-fw fa-lg"></i></a></li>
