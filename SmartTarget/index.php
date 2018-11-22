@@ -17,7 +17,7 @@
             </div>
         </div>
         
-        <div class="container-fluid bg-2 text-center p-2">
+       <!--  <div class="container-fluid bg-2 text-center p-2">
   <h3 class="margin">Que tipo de Usuario es?</h3>
   <a href="#" class="btn btn-success active btn-lg">
     <span class="glyphicon glyphicon-search"></span> Padre
@@ -43,8 +43,8 @@
           <input class="form-control" id="email" name="email" placeholder="contrasena" type="email" required>
         </div>
       </div>
-
-   </form>
+ -->
+   <!-- </form>
   </div>   
     
 </div>
@@ -53,34 +53,8 @@
         </div>
         <div class="container-fluid bg-2 text-center">
           <button type="button" class="btn btn-primary center">Registrarse con CARDCLOUD</button>
-        </div>
-  
-
-        <div class="container" id="contenedor">
-             <?php echo '<p>Alumno ingresado</p>' . htmlspecialchars($_GET["rfid"]); ?>
-
-             <input type="text" value="" id="test" name="test"> 
-             <button class="btn btn-success" id="btn-alumno" data-dismiss="modal" onclick="guardar_rfid();" type="button">Guardar</button>
-        </div>
-
-    </body>
-    <script type="text/javascript">
-      function guardar_rfid(){
-    // Variables pasadas de html a javascript
-
-    var rfid = '<?php echo  htmlspecialchars($_GET["rfid"]); ?>'
-
-    db.collection("rfid").add({//se crea la tabla de usuarios
-      RFID: rfid
-  })
-  .then(function(docRef) {
-      console.log("Document written with ID: ", docRef.id);
-      alert("El alumno fue registrado con exito")
-  })
-  .catch(function(error) {
-      console.error("Error adding document: ", error);
-  });
-  };
-</script>
+        </div> -->
+          
+        </body>
 </html>
 <?php include './inc/footer.php';?><!--Link que llama al footer en la carpeta inc-->
