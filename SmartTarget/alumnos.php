@@ -73,7 +73,7 @@
 	        <button class="btn btn-success" id="btn-alumno" data-dismiss="modal" onclick="guardar_Alumnos(); limpiar();" type="button">Guardar</button>
 	    </div>
 	    <div class="container mt-3">
-            <table class="table table-responsive my-3">
+            <table class="table table-bordered my-3">
                 <thead>
                     <tr>
                     	<th scope="col">ID</th>
