@@ -19,6 +19,8 @@
                     <a class="dropdown-item" href="escuelaCRUD.php">Escuela</a>
                     <a class="dropdown-item" href="Registro.php">Registro</a>
                     <a class="dropdown-item" href="lista de asistencia.php">Lista de asistencia</a>
+                    <a class="dropdown-item" href="r_comportamiento.php">Registro de compotamiento</a>
+                    <a class="dropdown-item" href="alertas.php">alerta de conductas</a>
                   </div>
                 </li>
                 <!-- <li class="nav-item"><a href="Lista.php" class="nav-link">Alumnos</a></li> -->

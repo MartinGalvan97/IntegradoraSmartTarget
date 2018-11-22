@@ -12,6 +12,7 @@
             <div class="jumbotron">
                 <h1>Lista de asistencia de </h1>
                 <h2>3ro B</h2>
+                
             </div>
         </div>
         <div class="container text-center">
