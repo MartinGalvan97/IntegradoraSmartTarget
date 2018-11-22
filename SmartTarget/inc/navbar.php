@@ -15,6 +15,7 @@
                     <a class="dropdown-item" href="#">Padres</a>
                     <a class="dropdown-item" href="maestros.php">Maestros</a>
                     <a class="dropdown-item" href="escuelaCRUD.php">Escuela</a>
+                    <a class="dropdown-item" href="Registro.php">Registro</a>
                   </div>
                 </li>
                 <!-- <li class="nav-item"><a href="Lista.php" class="nav-link">Alumnos</a></li> -->
