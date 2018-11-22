@@ -73,7 +73,7 @@
 	                </div>
 	            </div>
 	        </form>
-	        <button class="btn btn-success" id="btn-maestro" data-dismiss="modal" onclick="guardar_Maestros(); limpiar();" type="button">Guardar</button>
+	        <button class="btn btn-success" id="btn-maestro" data-dismiss="modal" onclick="guardar_Maestros(); limpiar_maestros();" type="button">Guardar</button>
 	    </div>
 	    <div class="container mt-3">
             <table class="table table-bordered my-3">

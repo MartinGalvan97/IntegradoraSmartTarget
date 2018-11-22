@@ -29,7 +29,7 @@
   };
 
 //MODIFICAR
-  function editar(id,NombrePlantel,ClaveCT,Direccion,Colonia,Municipio,Estado){
+  function editar_escuela(id,NombrePlantel,ClaveCT,Direccion,Colonia,Municipio,Estado){
     document.getElementById('nombreplantel').value = NombrePlantel;
     document.getElementById('claveCT').value = ClaveCT;
     document.getElementById('direccion').value = Direccion;
@@ -49,7 +49,7 @@
       var colonia = document.getElementById('colonia').value;
       var municipio = document.getElementById('municipio').value;
       var estado = document.getElementById('estado').value;
-      limpiar();
+      limpiar_escuelas();
       return washingtonRef.update({
           NombrePlantel: nombrePlantel,
           ClaveCT: claveCT,
@@ -73,7 +73,7 @@
   }
 
 //ELIMINAR
-  function eliminar(id) {
+  function eliminar_escuela(id) {
     db.collection("escuelas").doc(id).delete().then(function() {
       console.log("Document successfully deleted!");
   }).catch(function(error) {
@@ -96,14 +96,14 @@
             <td>${doc.data().Colonia}</td>
             <td>${doc.data().Municipio}</td>
             <td>${doc.data().Estado}</td>
-            <td><button class="btn btn-warning" onclick="editar('${doc.id}','${doc.data().NombrePlantel}','${doc.data().ClaveCT}','${doc.data().Direccion}','${doc.data().Colonia}','${doc.data().Municipio}',
-            '${doc.data().Estado}')"><i class="fas fa-pencil-alt"></i></button><button class="btn btn-danger" onclick="eliminar('${doc.id}')"><i class="fas fa-times"></i></button></td>
+            <td><button class="btn btn-warning" onclick="editar_escuela('${doc.id}','${doc.data().NombrePlantel}','${doc.data().ClaveCT}','${doc.data().Direccion}','${doc.data().Colonia}','${doc.data().Municipio}',
+            '${doc.data().Estado}')"><i class="fas fa-pencil-alt"></i></button><button class="btn btn-danger" onclick="eliminar_escuela('${doc.id}')"><i class="fas fa-times"></i></button></td>
           </tr>
           `
       });
   });
 
-function limpiar() {
+function limpiar_escuelas() {
     document.getElementById("nombreplantel").value = "";
     document.getElementById("claveCT").value = "";
     document.getElementById("direccion").value = "";

@@ -54,7 +54,7 @@
       var grado = document.getElementById('grado').value;
       var grupo = document.getElementById('grupo').value;
       var curp = document.getElementById('curp').value;
-      limpiar();
+      limpiar_alumnos();
 
       return washingtonRef.update({
           Nombre: nombre,
@@ -109,7 +109,7 @@
   });
 
 //LIMPIA LOS INPUTS AL REGISTARO MODIFICAR UN ALUMNO
-  function limpiar(){
+  function limpiar_alumnos(){
       document.getElementById("nombre").value = "";
       document.getElementById("apellidoP").value = "";
       document.getElementById("apellidoM").value = "";

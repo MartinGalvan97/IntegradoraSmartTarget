@@ -16,7 +16,7 @@
       Nombre: nombre,
       ApellidoP: apellidoP,
       ApellidoM: apellidoM,
-      CURP:curp,
+      CURP: curp,
       Turno: turno,
       Grado: grado,
       Grupo: grupo,
@@ -58,7 +58,7 @@
       var grupo = document.getElementById('grupo').value;
       var curp = document.getElementById('curp').value;
       var matricula = document.getElementById('matricula').value;
-      limpiar();
+      limpiar_maestros();
 
       return washingtonRef.update({
           Nombre: nombre,
@@ -111,13 +111,13 @@
             <td>${doc.data().Grupo}</td>
             <td>${doc.data().Matricula}</td>
             <td><button class="btn btn-warning" onclick="editar_Maestro('${doc.id}','${doc.data().Nombre}','${doc.data().ApellidoP}','${doc.data().ApellidoM}','${doc.data().CURP}','${doc.data().Turno}',
-            '${doc.data().Grado}', '${doc.data().Grupo}', '${doc.data().Matricula}')"><i class="fas fa-pencil-alt"></i></button><button class="btn btn-danger" onclick="eliminar-Maestro('${doc.id}')"><i class="fas fa-times"></i></button></td>
+            '${doc.data().Grado}', '${doc.data().Grupo}', '${doc.data().Matricula}')"><i class="fas fa-pencil-alt"></i></button><button class="btn btn-danger" onclick="eliminar_Maestro('${doc.id}')"><i class="fas fa-times"></i></button></td>
           </tr>
           `
       });
   });
 
-function limpiar() {
+function limpiar_maestros() {
     document.getElementById("nombre").value = "";
     document.getElementById("apellidoP").value = "";
     document.getElementById("apellidoM").value = "";

@@ -42,7 +42,7 @@
 	                <input class="form-control" id="estado" name="estado" placeholder="Ingrese elestado al que pertenece el municipio" maxlength="30" type="text" autocomplete="off"></input>
 	            </div>
 	        </form>
-	        <button class="btn btn-success" id="btn-escuela" data-dismiss="modal" onclick="guardar_Escuela(); limpiar();" type="button">Guardar</button>
+	        <button class="btn btn-success" id="btn-escuela" data-dismiss="modal" onclick="guardar_Escuela(); limpiar_escuelas();" type="button">Guardar</button>
 	    </div>
 	    <div class="container mt-3">
             <table class="table table-bordered my-3">
