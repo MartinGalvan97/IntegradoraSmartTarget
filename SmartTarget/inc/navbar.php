@@ -25,7 +25,7 @@
                 </li>
                 <!-- <li class="nav-item"><a href="Lista.php" class="nav-link">Alumnos</a></li> -->
                 <li class="nav-item"><a href="dashboard.php" class="nav-link">Dashboard</a></li>
-                <li class="nav-item"><a href="dashboard.php" class="nav-link">Maestra Rosa Me. Lano</a></li>
+                <li class="nav-item"><a href="dashboard.php" class="nav-link">Maestros</a></li>
 
                 <li class="nav-item"><a href="aboutUs.php" class="nav-link">Sobre nosotros</a></li>
             </ul>
