@@ -1,8 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
     <div class="container">
+        <img src="assets/img/logo.jpg" class="rounded-circle" width="30" height="23">
         <a class="navbar-brand" href="index.php">CardCloud</a>
-        <img src="C:\wamp\www\proyecto 2\trunk\SmartTarget\assets\img
-        logo.jpg" alt="">
         <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
             &#9776;
         </button>
