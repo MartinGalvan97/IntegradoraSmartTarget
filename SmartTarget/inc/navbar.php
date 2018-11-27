@@ -10,7 +10,7 @@
             <ul class="nav navbar-nav">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    Registro
+                    Menu
                   </a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="alumnos.php">Alumnos</a>

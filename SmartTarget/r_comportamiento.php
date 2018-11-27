@@ -13,7 +13,7 @@
         
         <div class="container-fluid text-center mr-sm-6 p-5">
         
-        <input class="form-control mr-sm-6" type="text" placeholder="Buscar">
+        <input class="form-control mr-sm-6" type="text" placeholder="Buscar alumno">
         
         </div>
 
@@ -22,13 +22,13 @@
 
         <div class="row p-5">
                   <div class="form-group col-md-4">
-            <input class="form-control mr-sm-6" type="text" placeholder="Buscar">
+            <input class="form-control mr-sm-6" type="text" placeholder="Nombre">
                   </div>
                   <div class="form-group col-md-4">
-                      <input class="form-control mr-sm-6" type="text" placeholder="Buscar">
+                      <input class="form-control mr-sm-6" type="text" placeholder="Grupo">
                   </div>
                   <div class="form-group col-md-4">
-                      <input class="form-control mr-sm-6" type="text" placeholder="Buscar">
+                      <input class="form-control mr-sm-6" type="text" placeholder="Edad">
                   </div>
               </div>
           </form>
@@ -38,17 +38,17 @@
       <div class="form-group col-sm-12">
           <form action="/action_page.php">
               <select name="cars" class="custom-select col-sm-5">
-                <option selected>Escoje escuela de preferencia</option>
-                <option value="volvo">Volvo</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
+                <option selected>Comportamiento positivo</option>
+                <option value="volvo">Regular</option>
+                <option value="fiat">Bueno</option>
+                <option value="audi">Muy bueno</option>
               </select>
 
                <select name="cars" class="custom-select col-sm-5">
-                <option selected>Escoje escuela de preferencia</option>
-                <option value="volvo">Volvo</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
+                <option selected>Comportamiento negativo</option>
+                <option value="volvo">Regular</option>
+                <option value="fiat">Malo</option>
+                <option value="audi">Muy malo</option>
               </select>
             </form>
       </div>
@@ -59,7 +59,7 @@
   <form action="/action_page.php">
     <div class="form-group">
     
-      <textarea class="form-control" rows="5" id="comment" name="text type="text" placeholder="Buscar""></textarea>
+      <textarea class="form-control" rows="5" id="comment" name="text type="text" placeholder="Comentarios especificos de la conducta"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
   </form>
