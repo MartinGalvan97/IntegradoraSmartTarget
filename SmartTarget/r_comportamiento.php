@@ -10,15 +10,10 @@
     </head>
     <body>
        
-        
         <div class="container-fluid text-center mr-sm-6 p-5">
-        
-        <input class="form-control mr-sm-6" type="text" placeholder="Buscar alumno">
-        
+          <h2 align="center"><b>Registro de conducta</b></h2>
+          <input class="form-control mr-sm-6" type="text" placeholder="Buscar alumno">
         </div>
-
-        
-        
 
         <div class="row p-5">
                   <div class="form-group col-md-4">
